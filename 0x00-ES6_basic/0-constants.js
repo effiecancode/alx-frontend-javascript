@@ -2,17 +2,17 @@
 // function taskNext to instantiate variables using let
 
 export function taskFirst() {
-    const task = 5;
-    return task;
-  }
+  const task = 5;
+  return task;
+}
 
-  export function getLast() {
-    return 10;
-  }
+export function getLast() {
+  return 10;
+}
 
-  export function taskNext() {
-    let combination = taskFirst();
-    combination += getLast();
+export function taskNext() {
+  let combination = taskFirst();
+  combination += getLast();
 
-    return combination;
-  }
+  return combination;
+}
