@@ -39,7 +39,6 @@ export default class HolbertonCourse {
   }
 
   // (ensure its an arr of strings)
-
   set students(value) {
     if (Array.isArray(value)) {
       value.forEach((element) => {
