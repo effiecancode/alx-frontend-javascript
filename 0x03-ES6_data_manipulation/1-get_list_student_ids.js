@@ -14,13 +14,13 @@ export default function getListStudentIds(arr) {
   return ids;
 }
 
-// test the function
+// // test the function
 
 // const obj = getListStudents();
 
-// // test the not arr conditon
+    // // test the not arr conditon
 // const arr = getListStudentIds('hello');
-// // test that the fun returns an arr of ids
+    // // test that the fun returns an arr of ids
 // const idsArr = getListStudentIds(obj);
 
 // console.log(arr);
