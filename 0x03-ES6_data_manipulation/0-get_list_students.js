@@ -14,7 +14,7 @@ export default function getListStudents() {
   const obj3 = {
     name: 'Serena',
     id: 5,
-    location: 'San Fancisco',
+    location: 'San Francisco',
   };
 
   // had initially used (...) spread oparator, but it unpacks and merges
