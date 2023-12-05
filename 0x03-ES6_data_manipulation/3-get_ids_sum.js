@@ -1,23 +1,20 @@
-import getListStudentIds from './1-get_list_student_ids';
 import getListStudents from './0-get_list_students';
+import getListStudentIds from './1-get_list_student_ids';
 
-export default function getStudentIdsSum(getListStudents) {
-  // get the list of students
-  const obj = getListStudents();
+export default function getStudentIdsSum() {
+  // get the list
+  const list = getListStudents();
 
   // extract ids
-  const ids = getListStudentIds(obj);
+  const ids = getListStudentIds(list);
 
   // accumulate the ids
-  sum = ids.reduce((accumulator, currentId) => accumulator + currentId, 0);
+  const sum = ids.reduce((accumulator, currentId) => accumulator + currentId, 0);
 
   return sum;
 }
 
 // test the function
 
-// const obj = getListStudents();
-// const ids = getListStudentIds(obj);
-// const idsum = getStudentIdsSum(ids);
-
+// const idsum = getStudentIdsSum();
 // console.log(idsum);
