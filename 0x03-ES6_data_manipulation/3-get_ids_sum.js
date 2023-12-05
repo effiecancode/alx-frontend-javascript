@@ -16,8 +16,8 @@ export default function getStudentIdsSum(getListStudents) {
 
 // test the function
 
-const obj = getListStudents();
-const ids = getListStudentIds(obj);
-const idsum = getStudentIdsSum(ids);
+// const obj = getListStudents();
+// const ids = getListStudentIds(obj);
+// const idsum = getStudentIdsSum(ids);
 
-console.log(idsum);
+// console.log(idsum);
