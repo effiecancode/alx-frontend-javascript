@@ -1,5 +1,5 @@
 export default function getListStudents() {
-  const obj1 = [{
+  return [{
     name: 'Guillaume',
     id: 1,
     location: 'San Francisco',
@@ -17,7 +17,6 @@ export default function getListStudents() {
     location: 'San Francisco',
   },
   ];
-  return obj1;
 }
 
 // function test
