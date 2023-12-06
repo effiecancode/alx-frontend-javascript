@@ -67,4 +67,3 @@ const teachClass = (todayClass: Subjects): string => todayClass === 'Math' ? 'Te
 console.log(teachClass('Math'));
 
 console.log(teachClass('History'));
-
