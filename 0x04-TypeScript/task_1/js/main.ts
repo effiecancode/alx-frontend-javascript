@@ -45,7 +45,7 @@ interface StudentClassInterface {
 }
 
 interface StudentClassConstructorInterface {
-    new(firstName: string, lastName: string): StudentClassInterface; 
+    new(firstName: string, lastName: string): StudentClassInterface;
 }
 
 class StudentClass implements StudentClassInterface {
@@ -72,4 +72,3 @@ function createStudent(cStudent: StudentClassConstructorInterface, firstName: st
 
 const student1 = createStudent(StudentClass, 'mike', 'tyson');
 console.log(student1);
-
